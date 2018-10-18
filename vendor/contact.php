@@ -1,4 +1,4 @@
-<?php
+``<?php
 
 // Email address verification
 function isEmail($email) {
@@ -36,3 +36,4 @@ if($_POST) {
 }
 
 ?>
+ 
