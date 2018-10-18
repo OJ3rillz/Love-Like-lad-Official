@@ -475,6 +475,23 @@ All Rights Reserved </p>
 
 <script>
 
+  function sendmail(){
+    var contactemail = $('#contact-email').val();
+    var contactsubject = $('#contact-subject').val();
+    var contactmessage = $('#contact-message').val();
+  
+    var url = 'http://thewebsite.com/mail.php';
+
+      $.post(url,{
+        email: contactemail,
+        subject: contactsubject,
+        message: contactmessage
+      }, function(data){
+
+        
+
+});
+  }
 
 
 
