@@ -413,7 +413,7 @@
                               <label class="sr-only" for="contact-message">Message</label>
                               <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
                             </div>
-                            <button type="submit" class="btn">Send message</button>
+                            <button type="submit" class="btn" onclick="sendmail();">Send message</button>
                         </form>
                       </div>
                       </div>
@@ -476,10 +476,12 @@ All Rights Reserved </p>
 <script>
 
   function sendmail(){
+    alert('Email has been sent');
     var contactemail = $('#contact-email').val();
     var contactsubject = $('#contact-subject').val();
     var contactmessage = $('#contact-message').val();
   
+         //Insert correct path website
     var url = 'http://thewebsite.com/mail.php';
 
       $.post(url,{
@@ -487,8 +489,8 @@ All Rights Reserved </p>
         subject: contactsubject,
         message: contactmessage
       }, function(data){
+             alert('Email S ent Sucessfully');
 
-        
 
 });
   }
