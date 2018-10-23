@@ -1,7 +1,7 @@
 
 
 a, a:hover, a:focus {
-	color: #19b9e7;
+	color: #188a6d ;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -9,8 +9,8 @@ a, a:hover, a:focus {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #19b9e7; color: #fff; text-shadow: none; }
-::selection { background: #19b9e7; color: #fff; text-shadow: none; }
+::-moz-selection { background:  #188a6d; color: #fff; text-shadow: none; }
+::selection { background:  #188a6d; color: #fff; text-shadow: none; }
 
 
 .btn-link-1 {
@@ -18,13 +18,14 @@ img { max-width: 100%; }
 	height: 50px;
 	margin: 0 5px;
 	padding: 16px 20px 0 20px;
-	background: #19b9e7;
+	background:  #188a6d;
 	font-size: 16px;
     font-weight: 300;
     line-height: 16px;
     color: #fff;
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
 }
+
 .btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active { outline: 0; opacity: 0.6; color: #fff; }
 
 .btn-link-2 {
@@ -45,12 +46,10 @@ img { max-width: 100%; }
 
 
 
-
-
 /***** Top content *****/
 
 .inner-bg {
-    padding: 40px 0 170px 0;
+    padding: 40px 0 0px 0;
 }
 
 .top-content .text {
@@ -72,7 +71,7 @@ img { max-width: 100%; }
 .top-content .description a:focus { border-bottom: 1px dotted #fff; }
 
 .top-content .top-big-link {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 .form-box {
@@ -117,7 +116,7 @@ img { max-width: 100%; }
 }
 
 .form-bottom form .input-error {
-	border-color: #19b9e7;
+	border-color:  #188a6d;
 }
 
 
@@ -158,9 +157,6 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 	
-	/* logo */
-    .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 113px 32px !important;
-    }
+	
 	
 }
