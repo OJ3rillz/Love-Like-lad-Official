@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>LLL - Official Website</title>
-
+    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -30,6 +30,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./app.js"></script>
 
   </head>
 
@@ -51,7 +54,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -369,7 +372,48 @@
       </div>
 
 
-  
+    <!-- Contact Section 2-->
+
+      <!-- Contact Section 2-->
+      <div class="top-content">
+          <div class="inner-bg">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 mx-auto text-center">
+                    <div class="form-top">
+                      <div class="form-top-left">
+                        <h3>Contact us</h3>
+                          <p>Fill in the form below to send us a message:</p>
+                      </div>
+                      <div class="form-top-right">
+                        <i class="fa fa-envelope"></i>
+                      </div>
+                      </div>
+                      <div class="form-bottom contact-form">
+                    <form role="form" action="vendor/contact.php" method="post">
+                      <div class="form-group">
+                        <label class="sr-only" for="contact-email">Email</label>
+                          <input type="email" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" for="contact-subject">Subject</label>
+                          <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" for="contact-message">Message</label>
+                          <textarea name="message" placeholder="Message..." class="contact-subject form-control" id="contact-message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send message</button>
+                    </form>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+  </div>
+</section>
+
 
     <!-- Footer -->
 <footer>
@@ -415,31 +459,7 @@ All Rights Reserved </p>
     <!-- Javascript -->
 <script src="vendor/js/jquery-1.11.1.min.js"></script>
 
-<script>
 
-  function sendmail(){
-    alert('Email has been sent');
-    var contactemail = $('#contact-email').val();
-    var contactsubject = $('#contact-subject').val();
-    var contactmessage = $('#contact-message').val();
-  
-         //Insert correct path website
-    var url = 'http://thewebsite.com/mail.php';
-
-      $.post(url,{
-        email: contactemail,
-        subject: contactsubject,
-        message: contactmessage
-      }, function(data){
-             alert('Email Sent Sucessfully');
-
-
-});
-  }
-
-
-
-</script>
 <!--<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="vendor/js/jquery.backstretch.min.js"></script>
 <script src="vendor/js/retina-1.1.0.min.js"></script>
