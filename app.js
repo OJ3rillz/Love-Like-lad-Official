@@ -1,9 +1,8 @@
-console.log('it wworks');
-
+ /** Contact */
 $(document).ready(function (){
       $('.btn').click(function(event){ 
              console.log('Clicked button');
-
+      
              var email = $('.email').val()
              var subject = $('.subject').val()
              var message = $('.message').val()
