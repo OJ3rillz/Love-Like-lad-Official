@@ -502,6 +502,7 @@ a, a:hover, a:focus {
 
 
 img { max-width: 100%; }
+.eeelog {max-width: 20%;}
 
 ::-moz-selection { background:  #188a6d; color: #fff; text-shadow: none; }
 ::selection { background:  #188a6d; color: #fff; text-shadow: none; }
@@ -543,76 +544,76 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .inner-bg {
-    padding: 40px 0 0px 0;
-}
-
-.top-content .text {
-	color: #fff;
-}
-
-.top-content .text h1 { color: #fff; }
-
-.top-content .description {
-	margin: 20px 0 10px 0;
-}
-
-.top-content .description p { opacity: 0.8; }
-
-.top-content .description a {
-	color: #fff;
-}
-.top-content .description a:hover, 
-.top-content .description a:focus { border-bottom: 1px dotted #fff; }
-
-.top-content .top-big-link {
-	margin-top: 30px;
-}
-
-.form-box {
-	padding-top: 40px;
-}
-
-.form-top {
-	overflow: hidden;
-	padding: 0 25px 15px 25px;
-	background: #fff;
-	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
-	text-align: left;
-}
-
-.form-top-left {
-	float: left;
-	width: 75%;
-	padding-top: 25px;
-}
-
-.form-top-left h3 { margin-top: 0; }
-
-.form-top-right {
-	float: left;
-	width: 25%;
-	padding-top: 5px;
-	font-size: 66px;
-	color: #ddd;
-	line-height: 100px;
-	text-align: right;
-}
-
-.form-bottom {
-	padding: 25px 25px 30px 25px;
-	background: #eee;
-	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
-	text-align: left;
-}
-
-.form-bottom form textarea {
-	height: 100px;
-}
-
-.form-bottom form .input-error {
-	border-color:  #188a6d;
-}
-
+	padding: 40px 0 0px 0;
+  }
+  
+  .top-content .text {
+	  color: #fff;
+  }
+  
+  .top-content .text h1 { color: #fff; }
+  
+  .top-content .description {
+	  margin: 20px 0 10px 0;
+  }
+  
+  .top-content .description p { opacity: 0.8; }
+  
+  .top-content .description a {
+	  color: #fff;
+  }
+  .top-content .description a:hover, 
+  .top-content .description a:focus { border-bottom: 1px dotted #fff; }
+  
+  .top-content .top-big-link {
+	  margin-top: 30px;
+  }
+  
+  .form-box {
+	  padding-top: 40px;
+  }
+  
+  .form-top {
+	  overflow: hidden;
+	  padding: 0 25px 15px 25px;
+	  background: #fff;
+	  -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	  text-align: left;
+  }
+  
+  .form-top-left {
+	  float: left;
+	  width: 75%;
+	  padding-top: 25px;
+  }
+  
+  .form-top-left h3 { margin-top: 0; }
+  
+  .form-top-right {
+	  float: left;
+	  width: 25%;
+	  padding-top: 5px;
+	  font-size: 66px;
+	  color: #ddd;
+	  line-height: 100px;
+	  text-align: right;
+  }
+  
+  .form-bottom {
+	  padding: 25px 25px 30px 25px;
+	  background: #eee;
+	  -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	  text-align: left;
+  }
+  
+  .form-bottom form textarea {
+	  height: 100px;
+  }
+  
+  .form-bottom form .input-error {
+	  border-color:  #188a6d;
+  }
+  
 
 /***** Media queries *****/
 
@@ -659,18 +660,6 @@ only screen and (                min-resolution: 2dppx) {
 @font-face {
 	font-family: slack-timepos;
 	src: url("../fonts/tiempos-headline-semibold.woff2");
-}
-
-html {
-	font-size: 16 px;
-}
-
-body {
-	font-family: 'Lato', sans-serif;
-}
-
-body h1 {
-	font-family: slack-timepos, 'Goudy Bookletter 1911', serif;
 }
 
 
@@ -775,28 +764,9 @@ body h1 {
 	padding-bottom: 0;
 }
 
-.download-slack {
-	color: #29339b;
-	background-color: #fff;
-	font-weight: bolder;
-	font-size: 1.3rem;
-	padding: 1rem;
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	border-radius: 0;
-	font-family: 'Lato', sans-serif;
-}
 
-.download-slack img {
-	margin-right: 1.5rem;
-}
 
-.fix-to-end {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
+
 
 @keyframes slide-in {
 	from {
@@ -849,66 +819,6 @@ body h1 {
 }
 
 
-
-.ticket-master {
-	max-width: 60%;
-	height: auto;
-	border-bottom: none;
-}
-
-.brand {
-	padding: 2.3rem;
-	border-bottom: 0.5px solid #dfdfdf;
-}
-
-#ticket-master {
-	border-bottom: none;
-}
-
-
-
-/* section 3 */
-.section-3 {
-	display: flex;
-	padding: 0.5rem 1.9rem;
-	flex-wrap: wrap;
-}
-
-.logo-alone img {
-	width: 70%;
-	margin-left: -1.8rem;
-}
-
-.extra-info {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.extras {
-	width: 50%;
-	padding-bottom: 1.5rem;
-}
-
-.extras p {
-	padding: 0;
-	line-height: 3;
-	max-width: 100%;
-	font-size: 1rem;
-	color: #637277;
-	font-weight: 300;
-}
-
-.extras h3 {
-	font-size: 1rem;
-	font-weight: bold;
-	color: #637277;
-	line-height: 2.7;
-}
-
-
-
-
 /* Media queries */
 
 /* For Tablets */
@@ -944,127 +854,6 @@ body h1 {
 	#icon img {
 		width: 2rem;
 	}
-
-	/* header */
-	header h1 {
-		font-size: 4.3rem;
-	}
-
-	.header-text p {
-		font-size: 1.3rem;
-		font-weight: 300;
-		line-height: 1.5;
-	}
-
-	.get-slack {
-		max-width: 100%;
-	}
-
-	.get-started {
-		width: 30%;
-	}
-
-	.get-slack p {
-		display: none;
-	}
-
-	#home-image {
-		display: block;
-		margin: 0 auto;
-		padding-top: 2.5rem;
-		max-width: 50%;
-	}
-
-	/* section 1 */
-	.section-1 h2 {
-		font-size: 2.1rem;
-	}
-
-	.section-1 p {
-		font-size: 1.1rem;
-		font-weight: 300;
-	}
-
-	#discover-why {
-		width: 30%;
-	}
-
-	.brand {
-		width: 50%;
-	}
-
-	.brand-logos {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-	#oracle {
-		border-bottom: none;
-	}
-
-	#airbnb,
-	#harvard,
-	#oracle {
-		border-right: 0.5px solid #dfdfdf;
-	}
-
-	/* section 2 */
-	.section-2 {
-		flex-wrap: nowrap;
-		padding-bottom: 1.2rem;
-	}
-
-	.text {
-		text-align: left;
-		width: 50%;
-	}
-
-	.text h3 {
-		font-size: 1.6rem;
-	}
-
-	.text p {
-		font-weight: 300;
-	}
-
-	.the-button {
-		width: 50%;
-	}
-
-	.the-button .get-started {
-		width: 65%;
-	}
-
-	/* section 3 */
-	.section-3 {
-		flex-wrap: nowrap;
-		padding: 1.7rem 1.7rem 1.7rem 0;
-	}
-
-	.logo-alone {
-		width: 20%;
-		margin-left: 3rem;
-	}
-
-	.logo-alone img {
-		padding-right: 1.4rem;
-	}
-
-	.extra-info {
-		justify-content: space-between;
-		width: 80%;
-		padding: 0;
-	}
-
-	.extras {
-		width: 20%;
-	}
-
-	.extras p {
-		font-size: 0.9rem;
-		color: #aeb1b3;
-	}
-
 
 	/* footer */
 	footer {
