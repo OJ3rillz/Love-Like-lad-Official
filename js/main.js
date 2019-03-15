@@ -60,7 +60,7 @@
 })(jQuery); // End of use strict
 
 
-/**hhhass */
+/**Nav bar */
 var menuIcon = document.querySelector('#icon');
 var fullMenu = document.querySelector('.full-menu')
 var closeIcon = document.querySelector('#close-icon')
